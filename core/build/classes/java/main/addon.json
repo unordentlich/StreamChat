@@ -1,0 +1,19 @@
+{
+  "namespace": "streamchatplus",
+  "displayName": "StreamChat+",
+  "description": "Never tab out of your full screen again! StreamChat+ shows you your Twitch chat in Minecraft.",
+  "version": "1.0.0",
+  "author": "unordentlich",
+  "os": [],
+  "compatibleMinecraftVersions": "*",
+  "meta": [],
+  "mavenDependencies": [],
+  "addonDependencies": [],
+  "mainClasses": [
+    "de.unordentlich.core.StreamChatPlus"
+  ],
+  "incompatibles": [],
+  "entrypoints": {},
+  "earlyTransformers": [],
+  "transformers": []
+}

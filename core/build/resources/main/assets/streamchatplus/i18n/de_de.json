@@ -1,0 +1,209 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Aktiviert"
+      },
+      "prefix": {
+        "name": "Prefix",
+        "description": "Konfiguriere das Aussehen von eingehenden Chat-Nachrichten. Nutze %message% als Platzhalter für die Nachricht des Benutzers sowie %user% als Platzhalter für den Namen des Chatters."
+      },
+      "openSupportLink": {
+        "name": "Benötigst du Hilfe?",
+        "text": "Support"
+      },
+      "botName": {
+        "name": "Bot Benutzername"
+      },
+      "twitchChannel": {
+        "name": "Twitch Kanalname"
+      },
+      "twitchToken": {
+        "name": "Twitch Token"
+      },
+      "ingameChatEnabled": {
+        "name": "Schreibe im StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Prefix"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Auto Broadcasts",
+        "interval1": {
+          "name": "Intervall"
+        },
+        "message1": {
+          "name": "Nachricht"
+        },
+        "interval2": {
+          "name": "Intervall"
+        },
+        "message2": {
+          "name": "Nachricht"
+        },
+        "interval3": {
+          "name": "Intervall"
+        },
+        "message3": {
+          "name": "Nachricht"
+        },
+        "interval4": {
+          "name": "Intervall"
+        },
+        "message4": {
+          "name": "Nachricht"
+        },
+        "interval5": {
+          "name": "Intervall"
+        },
+        "message5": {
+          "name": "Nachricht"
+        },
+        "interval6": {
+          "name": "Intervall"
+        },
+        "message6": {
+          "name": "Nachricht"
+        },
+        "interval7": {
+          "name": "Intervall"
+        },
+        "message7": {
+          "name": "Nachricht"
+        },
+        "interval8": {
+          "name": "Intervall"
+        },
+        "message8": {
+          "name": "Nachricht"
+        },
+        "interval9": {
+          "name": "Intervall"
+        },
+        "message9": {
+          "name": "Nachricht"
+        },
+        "interval10": {
+          "name": "Intervall"
+        },
+        "message10": {
+          "name": "Nachricht"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Broadcasts neu laden"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Broadcast §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Verfügbare Platzhalter:\n§eBenutzername §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profil §8— §7%labynet%\n \n \n \n§8» §7Broadcast §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Custom Commands §c§lNEU",
+        "command1": {
+          "name": "Command"
+        },
+        "response1": {
+          "name": "Nachricht"
+        },
+
+        "command2": {
+          "name": "Command"
+        },
+        "response2": {
+          "name": "Nachricht"
+        },
+
+        "command3": {
+          "name": "Command"
+        },
+        "response3": {
+          "name": "Nachricht"
+        },
+
+        "command4": {
+          "name": "Command"
+        },
+        "response4": {
+          "name": "Nachricht"
+        },
+
+        "command5": {
+          "name": "Command"
+        },
+        "response5": {
+          "name": "Nachricht"
+        },
+
+        "command6": {
+          "name": "Command"
+        },
+        "response6": {
+          "name": "Nachricht"
+        },
+
+        "command7": {
+          "name": "Command"
+        },
+        "response7": {
+          "name": "Nachricht"
+        },
+
+        "command8": {
+          "name": "Command"
+        },
+        "response8": {
+          "name": "Nachricht"
+        },
+
+        "command9": {
+          "name": "Command"
+        },
+        "response9": {
+          "name": "Nachricht"
+        },
+
+        "command10": {
+          "name": "Command"
+        },
+        "response10": {
+          "name": "Nachricht"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Commands neu laden"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Command §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Verfügbare Platzhalter:\n§eBenutzername §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profil §8— §7%labynet%\n \n \n \n§8» §7Command §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§8» §d✪ §5Twitch §7Einstellungen §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aIngame §7Einstellungen §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Extras §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cDein Addon ist nicht korrekt konfiguriert! :(",
+        "description": "§4→ §cDein Fehlercode lautet"
+      }
+    }
+  }
+}

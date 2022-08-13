@@ -1,0 +1,17 @@
+cref:ee35fc8f
+rt:internal
+models:0.1.0
+v1_8:0.1.0
+forge-legacy:0.1.0
+vanilla-launchwrapper:0.1.0
+fabric-modern:0.1.0
+processor:0.1.0
+forge-modern:0.1.0
+accesswidener:0.1.0
+core:4.0.0
+mappings:0.1.0
+volt:0.1.0
+v1_19:0.1.0
+api:0.1.0
+v1_17:0.1.0
+v1_18:0.1.0
