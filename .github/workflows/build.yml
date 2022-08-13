@@ -1,4 +1,4 @@
-name: StreamChat Build
+name: LabyAddon Build
 
 on:
   push:
@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "master", "main" ]
   workflow_dispatch:
+
+env:
+  PUBLIC_RELEASE_BUILD: true
+  PUBLIC_RELEASE_BUILD_TOKEN: ${{ secrets.PUBLIC_RELEASE_BUILD_TOKEN }}
 
 jobs:
   build:
