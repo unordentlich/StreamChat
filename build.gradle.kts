@@ -70,9 +70,6 @@ addon {
         author("unordentlich")
         description("Never tab out of your full screen again! StreamChat+ shows you your Twitch chat in Minecraft.")
         version("1.0.0")
-
-        //you can add maven dependencies here. the dependencies will then be downloaded by labymod.
-        //mavenDependencies().add(MavenDependency("https://repo.maven.apache.org/maven2/", "com.google.guava:guava:31.1-jre"))
     }
     
     internalRelease()
