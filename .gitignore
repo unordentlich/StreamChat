@@ -12,6 +12,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+
 # Package Files #
 *.jar
 *.war
@@ -134,3 +135,6 @@ run/
 
 # LabyGradle | Addon Plugin
 build-data.txt
+
+# Don't ignore libraries
+!libs/*.jar
