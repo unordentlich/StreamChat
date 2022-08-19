@@ -3,7 +3,7 @@ description: "Report a bug or problem with StreamChat+"
 title: "🐞 Bug"
 labels: ["bug", "problem", "issue"]
 assignees:
-  - octocat
+  - unordentlich
 body:
   - type: markdown
     attributes:
