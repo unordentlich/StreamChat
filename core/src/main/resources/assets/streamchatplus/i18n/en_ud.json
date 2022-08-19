@@ -1,0 +1,209 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "pǝlqɐuƎ"
+      },
+      "prefix": {
+        "name": "xᴉɟǝɹԀ",
+        "description": "˙ǝɯɐu ɹǝsn ǝɥʇ ɹoɟ ɹǝploɥǝɔɐld ǝɥʇ sɐ %ɹǝsn% puɐ ǝƃɐssǝɯ ǝɥʇ ɹoɟ ɹǝploɥǝɔɐld ǝɥʇ sɐ %ǝƃɐssǝɯ% ǝs∩ ˙ǝƃɐssǝɯ ʇɐɥɔ ƃuᴉɯoɔuᴉ uɐ ɟo ǝɔuɐɹɐǝddɐ ǝɥʇ ʇǝS"
+      },
+      "openSupportLink": {
+        "name": "¿dlǝɥ pǝǝu noʎ op",
+        "text": "ʇɹoddnS"
+      },
+      "botName": {
+        "name": "ǝɯɐuɹǝs∩ ʇoq"
+      },
+      "twitchChannel": {
+        "name": "ǝɯɐuɹǝs∩ ɥɔʇᴉʍ┴"
+      },
+      "twitchToken": {
+        "name": "uǝʞo┴ ɥɔʇᴉʍ┴"
+      },
+      "ingameChatEnabled": {
+        "name": "ʇɐɥƆɯɐǝɹʇS uᴉ ǝʇᴉɹM"
+      },
+      "ingameChatPrefix": {
+        "name": "xᴉɟǝɹԀ"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "sʇsɐɔpɐoɹq oʇn∀",
+        "interval1": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message1": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval2": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message2": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval3": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message3": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval4": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message4": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval5": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message5": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval6": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message6": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval7": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message7": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval8": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message8": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval9": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message9": {
+          "name": "ǝƃɐssǝW"
+        },
+        "interval10": {
+          "name": "lɐʌɹǝʇuI"
+        },
+        "message10": {
+          "name": "ǝƃɐssǝW"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "sʇsɐɔpɐoɹq pɐolǝɹ"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7ʇsɐɔpɐoɹq §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7:sɹǝploɥǝɔɐld ǝlqɐlᴉɐʌ∀\n§7%name% §8— §eǝɯɐN-ɹǝʎɐlԀ\n§7%version% §8— §euoᴉsɹǝΛ-ʇɟɐɹɔǝuᴉW\n§7%server% §8— §eɹǝʌɹǝS\n§7%labynet% §8— §eǝlᴉɟoɹԀ ┴ƎNʎqɐ˥\n \n \n \n§8» §7ʇsɐɔpɐoɹq §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "spuɐɯɯoƆ  ɯoʇsnƆ  §c§lNEW",
+        "command1": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response1": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command2": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response2": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command3": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response3": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command4": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response4": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command5": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response5": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command6": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response6": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command7": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response7": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command8": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response8": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command9": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response9": {
+          "name": "ǝƃɐssǝW"
+        },
+
+        "command10": {
+          "name": "puɐɯɯoƆ"
+        },
+        "response10": {
+          "name": "ǝƃɐssǝW"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "spuɐɯɯoƆ  pɐolǝɹ"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7puɐɯɯoƆ  §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7:sɹǝploɥǝɔɐld ǝlqɐlᴉɐʌ∀\n§7%name% §8— §eǝɯɐN-ɹǝʎɐlԀ\n§7%version% §8— §euoᴉsɹǝΛ-ʇɟɐɹɔǝuᴉW\n§7%server% §8— §eɹǝʌɹǝS\n§7%labynet% §8— §eǝlᴉɟoɹԀ ┴ƎNʎqɐ˥\n \n \n \n§8» §7ʇsɐɔpɐoɹq §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§8» §d✪ §5ɥɔʇᴉʍ┴ §7sƃuᴉʇʇǝS §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aǝɯɐƃuI §7sƃuᴉʇʇǝS §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e sɐɹʇxƎ §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §c¡ƃuoɹʍ pǝɹnƃᴉɟuoɔ ǝq oʇ sɯǝǝs uoppɐ ɹno⅄ :(",
+        "description": "§4→ §csᴉ ǝpoɔ ɹoɹɹǝ ɹno⅄"
+      }
+    }
+  }
+}
