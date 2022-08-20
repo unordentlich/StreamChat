@@ -18,36 +18,36 @@ import java.util.ArrayList;
 @Singleton
 @AddonListener
 public class StreamChatPlus extends LabyAddon<Configuration> {
-  public static TwitchBot bot;
-  public static CustomCommandManager customCommandManager;
-  public static AutoBroadcastManager autoBroadcastManager;
+    public static TwitchBot bot;
+    public static CustomCommandManager customCommandManager;
+    public static AutoBroadcastManager autoBroadcastManager;
 
-  public static ArrayList<DebugEntry> debugLog = new ArrayList<>();
+    public static ArrayList<DebugEntry> debugLog = new ArrayList<>();
 
-  public static InstalledAddonInfo addonInfo;
+    public static InstalledAddonInfo addonInfo;
 
-  @Override
-  protected void enable() {
-    this.registerSettingCategory();
-    bot = new TwitchBot(this);
+    @Override
+    protected void enable() {
+        this.registerSettingCategory();
+        bot = new TwitchBot(this);
 
-    this.registerListener(ChatMessageSendListener.class);
-    this.registerListener(WorldJoinListener.class);
-    this.registerListener(WorldLeaveListener.class);
-    this.registerListener(PropertyUpdateListener.class);
+        this.registerListener(ChatMessageSendListener.class);
+        this.registerListener(WorldJoinListener.class);
+        this.registerListener(WorldLeaveListener.class);
+        this.registerListener(PropertyUpdateListener.class);
 
-    customCommandManager = new CustomCommandManager(this);
-    customCommandManager.initializeCustomCommands();
+        customCommandManager = new CustomCommandManager(this);
+        customCommandManager.initializeCustomCommands();
 
-    autoBroadcastManager = new AutoBroadcastManager(this);
-    autoBroadcastManager.initializeAutoBroadcasts();
+        autoBroadcastManager = new AutoBroadcastManager(this);
+        autoBroadcastManager.initializeAutoBroadcasts();
 
-    this.logger().info("StreamChat+ | Addon successfully enabled. (v" + this.addonInfo().getVersion() + ")");
-    addonInfo = this.addonInfo();
-  }
+        this.logger().info("StreamChat+ | Addon successfully enabled. (v" + this.addonInfo().getVersion() + ")");
+        addonInfo = this.addonInfo();
+    }
 
-  @Override
-  protected Class<Configuration> configurationClass() {
-    return Configuration.class;
-  }
+    @Override
+    protected Class<Configuration> configurationClass() {
+        return Configuration.class;
+    }
 }

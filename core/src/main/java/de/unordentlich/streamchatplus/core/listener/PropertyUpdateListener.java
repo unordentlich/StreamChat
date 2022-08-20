@@ -11,42 +11,42 @@ import net.labymod.api.event.labymod.config.SettingWidgetInitializeEvent;
 
 public class PropertyUpdateListener {
 
-  private final StreamChatPlus addon;
+    private final StreamChatPlus addon;
 
-  @Inject
-  private PropertyUpdateListener(StreamChatPlus addon) {
-    this.addon = addon;
-  }
-
-  @Subscribe
-  public void onSettingUpdate(SettingUpdateEvent event) {
-    DebugTool.log("SettingUpdateEvent has been triggered", DebugActionExecuter.USER, getClass());
-    if (event.setting().getId().equals("enabled")) {
-      if (!(boolean) event.getValue()) {
-        if (StreamChatPlus.bot.isConnected()) {
-          StreamChatPlus.bot.stop();
-          DebugTool.log("TwitchBot was stopped because addon was disabled", DebugPriority.WARNING, getClass());
-        }
-      }
+    @Inject
+    private PropertyUpdateListener(StreamChatPlus addon) {
+        this.addon = addon;
     }
-    return;
-  }
 
-  @Subscribe
-  public void onSettingInit(SettingWidgetInitializeEvent event) {
-    DebugTool.log("SettingWidgetInitializeEvent has been triggered", getClass());
-    /**if(!event.holder().getPath().equals("settings.streamchatplus")) {
-     return;
-     }
+    @Subscribe
+    public void onSettingUpdate(SettingUpdateEvent event) {
+        DebugTool.log("SettingUpdateEvent has been triggered", DebugActionExecuter.USER, getClass());
+        if (event.setting().getId().equals("enabled")) {
+            if (!(boolean) event.getValue()) {
+                if (StreamChatPlus.bot.isConnected()) {
+                    StreamChatPlus.bot.stop();
+                    DebugTool.log("TwitchBot was stopped because addon was disabled", DebugPriority.WARNING, getClass());
+                }
+            }
+        }
+        return;
+    }
 
-     for (Widget setting : event.getSettings()) {
-     if(!(setting instanceof SettingHeaderWidget)) {
-     continue;
-     }
+    @Subscribe
+    public void onSettingInit(SettingWidgetInitializeEvent event) {
+        DebugTool.log("SettingWidgetInitializeEvent has been triggered", getClass());
+        /**if(!event.holder().getPath().equals("settings.streamchatplus")) {
+         return;
+         }
 
-     SettingHeaderWidget settingHeaderWidget = (SettingHeaderWidget) setting;
-     //settingHeaderWidget.component(Component.text("sdfwsdfsdf"));
-     }**/
-  }
+         for (Widget setting : event.getSettings()) {
+         if(!(setting instanceof SettingHeaderWidget)) {
+         continue;
+         }
+
+         SettingHeaderWidget settingHeaderWidget = (SettingHeaderWidget) setting;
+         //settingHeaderWidget.component(Component.text("sdfwsdfsdf"));
+         }**/
+    }
 
 }

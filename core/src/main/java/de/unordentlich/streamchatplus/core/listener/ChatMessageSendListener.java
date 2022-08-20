@@ -14,31 +14,31 @@ import net.labymod.api.inject.LabyGuice;
 
 public class ChatMessageSendListener {
 
-  private final StreamChatPlus addon;
+    private final StreamChatPlus addon;
 
-  @Inject
-  private ChatMessageSendListener(StreamChatPlus addon) {
-    this.addon = addon;
-  }
-
-  @Subscribe
-  public void onChatMessageSend(ChatMessageSendEvent event) {
-    DebugTool.log("ChatMessageSendEvent has been triggered", DebugActionExecuter.USER, getClass());
-    Configuration config = this.addon.configuration();
-    if (event.getMessage().startsWith(config.ingameChatPrefix().get())) {
-      if (config.ingameChatEnabled().get()) {
-        StreamChatPlus.bot.sendMessage(event.getOriginalMessage());
-        DebugTool.log("Sent message in Twitch Chat", getClass());
-        LabyGuice.getInstance(StreamChatPlus.class)
-            .displayMessage(
-                ColorCodeTranslator.translateColorCodes(config.prefix().get()).replace("%user%",
-                    Laby.labyAPI().minecraft().clientPlayer().getName()).replace("%message%",
-                    event.getOriginalMessage().replaceFirst(config.ingameChatPrefix().get(), "")));
-        DebugTool.log("ChatMessageSendEvent has been cancelled", DebugPriority.WARNING, getClass());
-        event.setCancelled(true);
-      }
+    @Inject
+    private ChatMessageSendListener(StreamChatPlus addon) {
+        this.addon = addon;
     }
-    return;
-  }
+
+    @Subscribe
+    public void onChatMessageSend(ChatMessageSendEvent event) {
+        DebugTool.log("ChatMessageSendEvent has been triggered", DebugActionExecuter.USER, getClass());
+        Configuration config = this.addon.configuration();
+        if (event.getMessage().startsWith(config.ingameChatPrefix().get())) {
+            if (config.ingameChatEnabled().get()) {
+                StreamChatPlus.bot.sendMessage(event.getOriginalMessage());
+                DebugTool.log("Sent message in Twitch Chat", getClass());
+                LabyGuice.getInstance(StreamChatPlus.class)
+                        .displayMessage(
+                                ColorCodeTranslator.translateColorCodes(config.prefix().get()).replace("%user%",
+                                        Laby.labyAPI().minecraft().clientPlayer().getName()).replace("%message%",
+                                        event.getOriginalMessage().replaceFirst(config.ingameChatPrefix().get(), "")));
+                DebugTool.log("ChatMessageSendEvent has been cancelled", DebugPriority.WARNING, getClass());
+                event.setCancelled(true);
+            }
+        }
+        return;
+    }
 
 }
