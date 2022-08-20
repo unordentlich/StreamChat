@@ -109,5 +109,24 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
 <br>Let me know about anything in a pull-request, an issue or a short discord message!
 <br>
 <br>
+<table>
+    <thead>
+        <td>🦖 User</td>
+        <td>🐱‍💻 Type of contribution</td>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="https://laby.net/@1d954089-ce5c-48ef-8ee6-a7d64742036a">DoJapHD</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@540ac9af-d940-4201-bcf9-722b8a01c1d0">Kubii_</a></td>
+            <td>Translating</td>
+        </tr>
+</table>
+<br>
+Thanks for your super awesome great outstanding work! ✨
+<br>
+<br>
 <h3>📬 Contact</h3>
 If you have any questions, requests or problems feel free to contact me at <a href="https://discord.com/users/421671659146313729"><b>Discord</b></a>!
