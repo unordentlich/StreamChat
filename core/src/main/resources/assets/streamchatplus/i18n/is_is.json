@@ -1,0 +1,209 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Kveikt"
+      },
+      "prefix": {
+        "name": "Forskeyti",
+        "description": "Stilltu útlit spjallskilaboða sem berast. Notaðu %message% sem staðgengil fyrir skilaboðin og %user% sem staðgengill fyrir notandanafnið."
+      },
+      "openSupportLink": {
+        "name": "Þarftu hjálp?",
+        "text": "Aðstoð"
+      },
+      "botName": {
+        "name": "Bot Notandanafn"
+      },
+      "twitchChannel": {
+        "name": "Twitch Notandanafn"
+      },
+      "twitchToken": {
+        "name": "Twitch Tákn"
+      },
+      "ingameChatEnabled": {
+        "name": "Skrifaðu í StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Forskeyti"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Sjálfvirkar Útsendingar",
+        "interval1": {
+          "name": "Millibili"
+        },
+        "message1": {
+           "name": "Skilaboð"
+        },
+        "interval2": {
+          "name": "Millibili"
+        },
+        "message2": {
+          "name": "Skilaboð"
+        },
+        "interval3": {
+          "name": "Millibili"
+        },
+        "message3": {
+          "name": "Skilaboð"
+        },
+        "interval4": {
+          "name": "Millibili"
+        },
+        "message4": {
+          "name": "Skilaboð"
+        },
+        "interval5": {
+          "name": "Millibili"
+        },
+        "message5": {
+          "name": "Skilaboð"
+        },
+        "interval6": {
+          "name": "Millibili"
+        },
+        "message6": {
+          "name": "Skilaboð"
+        },
+        "interval7": {
+          "name": "Millibili"
+        },
+        "message7": {
+          "name": "Skilaboð"
+        },
+        "interval8": {
+          "name": "Millibili"
+        },
+        "message8": {
+          "name": "Skilaboð"
+        },
+        "interval9": {
+          "name": "Millibili"
+        },
+        "message9": {
+          "name": "Skilaboð"
+        },
+        "interval10": {
+          "name": "Millibili"
+        },
+        "message10": {
+          "name": "Skilaboð"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Endurhlaða Útsendingar"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Útsending §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Tiltækir staðgenglar:\n§eLeikmaður-Nafn §8— §7%name%\n§eMinecraft-Útgáfa §8— §7%version%\n§eMiðlari §8— §7%server%\n§eLabyNET Prófíll §8— §7%labynet%\n \n \n \n§8» §7Útsending §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Sérsniðnar Skipanir §c§lNÝTT",
+        "command1": {
+          "name": "Skipun"
+        },
+        "response1": {
+          "name": "Skilaboð"
+        },
+
+        "command2": {
+          "name": "Skipun"
+        },
+        "response2": {
+          "name": "Skilaboð"
+        },
+
+        "command3": {
+          "name": "Skipun"
+        },
+        "response3": {
+          "name": "Skilaboð"
+        },
+
+        "command4": {
+          "name": "Skipun"
+        },
+        "response4": {
+          "name": "Skilaboð"
+        },
+
+        "command5": {
+          "name": "Skipun"
+        },
+        "response5": {
+          "name": "Skilaboð"
+        },
+
+        "command6": {
+          "name": "Skipun"
+        },
+        "response6": {
+          "name": "Skilaboð"
+        },
+
+        "command7": {
+          "name": "Skipun"
+        },
+        "response7": {
+          "name": "Skilaboð"
+        },
+
+        "command8": {
+          "name": "Skipun"
+        },
+        "response8": {
+          "name": "Skilaboð"
+        },
+
+        "command9": {
+          "name": "Skipun"
+        },
+        "response9": {
+          "name": "Skilaboð"
+        },
+
+        "command10": {
+          "name": "Skipun"
+        },
+        "response10": {
+          "name": "Skilaboð"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Endurhlaða Skipanir"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §Skipun §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Tiltækir staðgenglar:\n§eLeikmaður-Nafn §8— §7%name%\n§eMinecraft-Útgáfa §8— §7%version%\n§eMiðlari §8— §7%server%\n§eLabyNET Prófíll §8— §7%labynet%\n \n \n \n§8» §7Skipun §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§8» §d✪ §5Twitch §7Innstillingar §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aIngame §7Innstillingar §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Aukahlutir §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cViðbótin þín virðist vera rangt stillt! :(",
+        "description": "§4→ §cVillukóðinn þinn er"
+      }
+    }
+  }
+}
