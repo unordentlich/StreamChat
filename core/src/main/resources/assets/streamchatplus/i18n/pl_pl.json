@@ -1,0 +1,209 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Włączone"
+      },
+      "prefix": {
+        "name": "Prefiks",
+        "description": "Ustaw wygląd przychodzącej wiadomości czatu. Użyj %message% jako symbol zastępczy wiadomości oraz %user% jako symbol zastępczy nazwy użytkownika."
+      },
+      "openSupportLink": {
+        "name": "Potrzebujesz pomocy?",
+        "text": "Wsparcie"
+      },
+      "botName": {
+        "name": "Nazwa użytkownika Bota"
+      },
+      "twitchChannel": {
+        "name": "Nazwa użytkownika Twitch"
+      },
+      "twitchToken": {
+        "name": "Token Twitch'a"
+      },
+      "ingameChatEnabled": {
+        "name": "Napisz w StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Prefiks"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Auto Transmisje",
+        "interval1": {
+          "name": "Interwał"
+        },
+        "message1": {
+           "name": "Wiadomość"
+        },
+        "interval2": {
+          "name": "Interwał"
+        },
+        "message2": {
+          "name": "Wiadomość"
+        },
+        "interval3": {
+          "name": "Interwał"
+        },
+        "message3": {
+          "name": "Wiadomość"
+        },
+        "interval4": {
+          "name": "Interwał"
+        },
+        "message4": {
+          "name": "Wiadomość"
+        },
+        "interval5": {
+          "name": "Interwał"
+        },
+        "message5": {
+          "name": "Wiadomość"
+        },
+        "interval6": {
+          "name": "Interwał"
+        },
+        "message6": {
+          "name": "Wiadomość"
+        },
+        "interval7": {
+          "name": "Interwał"
+        },
+        "message7": {
+          "name": "Wiadomość"
+        },
+        "interval8": {
+          "name": "Interwał"
+        },
+        "message8": {
+          "name": "Wiadomość"
+        },
+        "interval9": {
+          "name": "Interwał"
+        },
+        "message9": {
+          "name": "Wiadomość"
+        },
+        "interval10": {
+          "name": "Interwał"
+        },
+        "message10": {
+          "name": "Wiadomość"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Odśwież Transmisje"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Transmisja §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Dostępne symbole zastępcze:\n§eGracz-Nazwa §8— §7%name%\n§eWersja-Minecraft §8— §7%version%\n§eSerwer §8— §7%server%\n§eProfil LabyNET §8— §7%labynet%\n \n \n \n§8» §7Transmisja §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Niestandardowe Komendy §c§lNEW",
+        "command1": {
+          "name": "Komenda"
+        },
+        "response1": {
+          "name": "Wiadomość"
+        },
+
+        "command2": {
+          "name": "Command"
+        },
+        "response2": {
+          "name": "Wiadomość"
+        },
+
+        "command3": {
+          "name": "Command"
+        },
+        "response3": {
+          "name": "Wiadomość"
+        },
+
+        "command4": {
+          "name": "Command"
+        },
+        "response4": {
+          "name": "Wiadomość"
+        },
+
+        "command5": {
+          "name": "Command"
+        },
+        "response5": {
+          "name": "Wiadomość"
+        },
+
+        "command6": {
+          "name": "Command"
+        },
+        "response6": {
+          "name": "Wiadomość"
+        },
+
+        "command7": {
+          "name": "Command"
+        },
+        "response7": {
+          "name": "Wiadomość"
+        },
+
+        "command8": {
+          "name": "Command"
+        },
+        "response8": {
+          "name": "Wiadomość"
+        },
+
+        "command9": {
+          "name": "Command"
+        },
+        "response9": {
+          "name": "Wiadomość"
+        },
+
+        "command10": {
+          "name": "Command"
+        },
+        "response10": {
+          "name": "Wiadomość"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Odśwież Komendy"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Komenda §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Dostępne symbole zastępcze:\n§eGracz-Nazwa §8— §7%name%\n§eWersja-Minecraft §8— §7%version%\n§eSerwer §8— §7%server%\n§eProfil LabyNET §8— §7%labynet%\n \n \n \n§8» §7Komenda §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§8» §d✪ §7Ustawienia §5Twitch §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §7Ustawienia §aw Grze §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Dodatki §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cTwój dodatek wydaje się być źle skonfigurowany! :(",
+        "description": "§4→ §cTwój kod błędu to"
+      }
+    }
+  }
+}
