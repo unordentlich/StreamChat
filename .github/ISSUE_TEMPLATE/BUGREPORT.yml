@@ -74,8 +74,9 @@ body:
         he went on a journey with his friends. On the trip he met a female
         dinosaur named Rexina. They became best friends and always shared their
         food. At some point Rexina was hit by a tree during a heavy thunderstorm
-        and Rex lost the love of his life. The End. :( \n *Joking, of course
-        they have been in love and married until the end of their lives lmao
+        and Rex lost the love of his life. The End. :(
+
+        *Joking, of course they have been in love and married until the end of their lives lmao
     validations:
       required: false
   - type: checkboxes
