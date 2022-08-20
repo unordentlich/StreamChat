@@ -20,6 +20,8 @@ import net.labymod.api.Laby;
 public class DebugTool {
 
   private final Configuration configuration;
+  public static boolean isFirstClick = true;
+  public static long lastClick = 0;
 
   @Inject
   public DebugTool(Configuration config) {
@@ -27,7 +29,7 @@ public class DebugTool {
   }
 
   public String createDebugLog() throws IOException {
-    URL url = new URL("https://paste.northernside.social/documents");
+    URL url = new URL("https://paste.labymod.net/documents");
     URLConnection connection = url.openConnection();
 
     connection.setRequestProperty("authority", "paste.labymod.net");
@@ -46,7 +48,7 @@ public class DebugTool {
     BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
     String response = reader.lines().collect(Collectors.joining("\n"));
 
-    return "https://paste.northernside.social/" + response.split("\"")[3];
+    return "https://paste.labymod.net/" + response.split("\"")[3];
   }
 
   private String prepareDebugLog() {
