@@ -19,9 +19,6 @@ import net.labymod.api.util.MethodOrder;
 @ConfigName("settings")
 public class Configuration extends AddonConfig {
 
-  boolean isFirstClick = true;
-  long lastClick = 0;
-
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
@@ -32,29 +29,29 @@ public class Configuration extends AddonConfig {
   @MethodOrder(after = "prefix")
   @ButtonSetting(translation = "streamchatplus.settings.openSupportLink.text")
   public void openSupportLink(Setting setting) {
-    lastClick = System.currentTimeMillis();
+    DebugTool.lastClick = System.currentTimeMillis();
     long thisClick = System.currentTimeMillis();
     Configuration thisConfig = this;
-    if(isFirstClick) {
-      isFirstClick = false;
+    if(DebugTool.isFirstClick) {
+      DebugTool.isFirstClick = false;
       new java.util.Timer().schedule(
           new java.util.TimerTask() {
             @Override
             public void run() {
-              if (lastClick > thisClick) {
+              if (DebugTool.lastClick > thisClick) {
                 try {
                   String link = new DebugTool(thisConfig).createDebugLog();
                   Laby.labyAPI().minecraft().chatExecutor()
                       .openUrl(link, false);
                   Laby.labyAPI().minecraft().setClipboard(link);
-                  isFirstClick = true;
+                  DebugTool.isFirstClick = true;
                 } catch (IOException e) {
                   throw new RuntimeException(e);
                 }
               } else {
                 Laby.labyAPI().minecraft().chatExecutor()
                     .openUrl("https://discord.gg/GhdDA4yyvR", false);
-                isFirstClick = true;
+                DebugTool.isFirstClick = true;
               }
             }
           }, 650);
