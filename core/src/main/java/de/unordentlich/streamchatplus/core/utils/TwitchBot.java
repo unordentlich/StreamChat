@@ -33,7 +33,6 @@ public class TwitchBot extends PircBot {
     public void start() {
         if (config.enabled().get()) {
             if (isConfiguredCorrectly()) {
-                this.setVerbose(true);
                 DebugTool.log("TwitchBot instance has been requested to connect...");
                 boolean token_working;
                 try {
