@@ -7,13 +7,12 @@ import de.unordentlich.streamchatplus.core.listener.WorldJoinListener;
 import de.unordentlich.streamchatplus.core.listener.WorldLeaveListener;
 import de.unordentlich.streamchatplus.core.utils.TwitchBot;
 import de.unordentlich.streamchatplus.core.utils.autobroadcast.AutoBroadcastManager;
-import de.unordentlich.streamchatplus.core.utils.credits.SendCredits;
-import de.unordentlich.streamchatplus.core.utils.credits.objects.Credit;
 import de.unordentlich.streamchatplus.core.utils.customcommands.CustomCommandManager;
 import de.unordentlich.streamchatplus.core.utils.support.objects.DebugEntry;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.models.addon.annotation.AddonListener;
 import net.labymod.api.models.addon.info.InstalledAddonInfo;
+
 import java.util.ArrayList;
 
 @Singleton
@@ -43,12 +42,7 @@ public class StreamChatPlus extends LabyAddon<Configuration> {
     autoBroadcastManager = new AutoBroadcastManager(this);
     autoBroadcastManager.initializeAutoBroadcasts();
 
-    this.logger()
-        .info("StreamChat+ | Addon successfully enabled. (v" + this.addonInfo().getVersion() + ")");
-    this.logger()
-            .info(SendCredits.generateAndSend(
-                    new Credit("DoJapHD", "Translation"),
-                    new Credit("Kubii_", "Translation")));
+    this.logger().info("StreamChat+ | Addon successfully enabled. (v" + this.addonInfo().getVersion() + ")");
     addonInfo = this.addonInfo();
   }
 
