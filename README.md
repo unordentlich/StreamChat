@@ -123,6 +123,26 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td><a href="https://laby.net/@540ac9af-d940-4201-bcf9-722b8a01c1d0">Kubii_</a></td>
             <td>Translating</td>
         </tr>
+        <tr>
+            <td><a href="https://laby.net/@73fed119-1912-4c72-bb39-4dbb109fce3e">D1manGamer</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@7d34b8db-5405-4a51-8ce7-877d56a6bdb9">Yoannee</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@aea7b8af-0b14-4f27-bbde-0a257affe940">snvi</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@a02979de-b86e-46e7-aae5-6f25f4b8945c">Cxyy</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@26d45041-3742-41f5-85ca-24ec4387347c">CrazySchnetzler</a></td>
+            <td>Icon-Designs</td>
+        </tr>
 </table>
 <br>
 Thanks for your super awesome great outstanding work! ✨
