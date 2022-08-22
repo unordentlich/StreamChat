@@ -23,7 +23,7 @@ import java.io.IOException;
 @SpriteTexture("settings.png")
 public class Configuration extends AddonConfig {
 
-    @SpriteSlot
+    @SpriteSlot()
     @SwitchSetting
     private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
@@ -66,25 +66,25 @@ public class Configuration extends AddonConfig {
     }
 
     @SettingSection("twitch")
-    @SpriteSlot(y = 1)
+    @SpriteSlot(x = 7)
     @TextFieldSetting
     private final ConfigProperty<String> botName = new ConfigProperty<>("StreamChatPlus");
 
-    @SpriteSlot(x = 1, y = 1)
+    @SpriteSlot(x = 3)
     @TextFieldSetting
     private final ConfigProperty<String> twitchChannel = new ConfigProperty<>("");
 
-    @SpriteSlot(x = 2, y = 1)
+    @SpriteSlot(x = 5)
     @TextFieldSetting
     private final ConfigProperty<String> twitchToken = new ConfigProperty<>("");
 
     @SettingSection("ingame")
-    @SpriteSlot(y = 2)
+    @SpriteSlot()
     @SwitchSetting
     private final ConfigProperty<Boolean> ingameChatEnabled = new ConfigProperty<>(false);
 
     @TextFieldSetting
-    @SpriteSlot(x = 1, y = 2)
+    @SpriteSlot(x = 1)
     private final ConfigProperty<String> ingameChatPrefix = new ConfigProperty<>("#");
 
     @SettingSection("extras")
