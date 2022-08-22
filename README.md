@@ -140,6 +140,10 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td>Translating</td>
         </tr>
         <tr>
+            <td><a href="https://laby.net/@edc5bda0-9d35-4b42-9197-22cdd1d4ee90">AbgehobenesKevi</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
             <td><a href="https://laby.net/@26d45041-3742-41f5-85ca-24ec4387347c">CrazySchnetzler</a></td>
             <td>Icon-Designs</td>
         </tr>
