@@ -1,0 +1,200 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Включено"
+      },
+      "prefix": {
+        "name": "Префикс",
+        "description": "Установите внешний вид входящих сообщений. Используйте %message% в качестве плейсхолдера для сообщения и %user% в качестве плейсхолдера для имени пользователя."
+      },
+      "openSupportLink": {
+        "name": "Требуется помощь?",
+        "text": "Поддержка"
+      },
+      "botName": {
+        "name": "Имя бота"
+      },
+      "twitchChannel": {
+        "name": "Имя пользователя Twitch"
+      },
+      "twitchToken": {
+        "name": "Токен Twitch"
+      },
+      "ingameChatEnabled": {
+        "name": "Запись в StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Префикс"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Авто-Broadcasts",
+        "interval1": {
+          "name": "Интервал"
+        },
+        "message1": {
+          "name": "Сообщение"
+        },
+        "interval2": {
+          "name": "Интервал"
+        },
+        "message2": {
+          "name": "Сообщение"
+        },
+        "interval3": {
+          "name": "Интервал"
+        },
+        "message3": {
+          "name": "Сообщение"
+        },
+        "interval4": {
+          "name": "Интервал"
+        },
+        "message4": {
+          "name": "Сообщение"
+        },
+        "interval5": {
+          "name": "Интервал"
+        },
+        "message5": {
+          "name": "Сообщение"
+        },
+        "interval6": {
+          "name": "Интервал"
+        },
+        "message6": {
+          "name": "Сообщение"
+        },
+        "interval7": {
+          "name": "Интервал"
+        },
+        "message7": {
+          "name": "Сообщение"
+        },
+        "interval8": {
+          "name": "Интервал"
+        },
+        "message8": {
+          "name": "Сообщение"
+        },
+        "interval9": {
+          "name": "Интервал"
+        },
+        "message9": {
+          "name": "Сообщение"
+        },
+        "interval10": {
+          "name": "Интервал"
+        },
+        "message10": {
+          "name": "Сообщение"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Перезагрузить Broadcasts"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Broadcast §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Доступные плейсхолдеры:\n§eИмя игрока §8— §7%name%\n§eВерсия Minecraft §8— §7%version%\n§eСервер §8— §7%server%\n§eПрофиль на LabyNET §8— §7%labynet%\n \n \n \n§8» §7Broadcast §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Пользовательские команды §c§lНОВОЕ",
+        "command1": {
+          "name": "Команда"
+        },
+        "response1": {
+          "name": "Сообщение"
+        },
+        "command2": {
+          "name": "Команда"
+        },
+        "response2": {
+          "name": "Сообщение"
+        },
+        "command3": {
+          "name": "Команда"
+        },
+        "response3": {
+          "name": "Сообщение"
+        },
+        "command4": {
+          "name": "Команда"
+        },
+        "response4": {
+          "name": "Сообщение"
+        },
+        "command5": {
+          "name": "Команда"
+        },
+        "response5": {
+          "name": "Сообщение"
+        },
+        "command6": {
+          "name": "Команда"
+        },
+        "response6": {
+          "name": "Сообщение"
+        },
+        "command7": {
+          "name": "Команда"
+        },
+        "response7": {
+          "name": "Сообщение"
+        },
+        "command8": {
+          "name": "Команда"
+        },
+        "response8": {
+          "name": "Сообщение"
+        },
+        "command9": {
+          "name": "Команда"
+        },
+        "response9": {
+          "name": "Сообщение"
+        },
+        "command10": {
+          "name": "Команда"
+        },
+        "response10": {
+          "name": "Сообщение"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Перезагрузить команды"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Команда §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Доступные плейсхолдеры:\n§eИмя игрока §8— §7%name%\n§eВерсия Minecraft §8— §7%version%\n§eСервер §8— §7%server%\n§eПрофиль на LabyNET §8— §7%labynet%\n \n \n \n§8» §7Command §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n §7§oВы можете найти свой \"Токен Twitch\" на \n     §7§ohttps://twitchapps.com/tmi/ \n \n §8» §d✪ §7Настройки §5Twitch §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aВнутриигровые §7настройки §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Дополнительно §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cПохоже, ваше дополнение настроено неправильно :(",
+        "description": "§4→ §cВаш код ошибки:"
+      }
+    }
+  }
+}
