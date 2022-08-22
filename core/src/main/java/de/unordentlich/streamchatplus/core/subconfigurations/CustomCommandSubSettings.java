@@ -6,6 +6,7 @@ import net.labymod.api.client.gui.screen.widget.widgets.input.SwitchWidget.Switc
 import net.labymod.api.client.gui.screen.widget.widgets.input.TextFieldWidget.TextFieldSetting;
 import net.labymod.api.configuration.loader.Config;
 import net.labymod.api.configuration.loader.annotation.ParentSwitch;
+import net.labymod.api.configuration.loader.annotation.SpriteSlot;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
 import net.labymod.api.configuration.settings.Setting;
 import net.labymod.api.configuration.settings.annotation.SettingSection;
@@ -17,6 +18,7 @@ public class CustomCommandSubSettings extends Config {
     @SwitchSetting
     private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
+    @SpriteSlot(y = 4)
     @MethodOrder(after = "enabled")
     @ButtonSetting(translation = "streamchatplus.settings.customCommandSubSettings.reloadCommands.text")
     public void reloadCommands(Setting setting) {
@@ -24,73 +26,93 @@ public class CustomCommandSubSettings extends Config {
     }
 
     @SettingSection("introduction")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command1 = new ConfigProperty<>("!example");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response1 = new ConfigProperty<>(
             "This is your first Custom Command. It can be executed in your twitch chat!");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command2 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response2 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command3 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response3 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command4 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response4 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command5 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response5 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command6 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response6 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command7 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response7 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command8 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response8 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command9 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response9 = new ConfigProperty<>("");
 
     @SettingSection("customCommand")
+    @SpriteSlot(x = 1, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> command10 = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 4)
     @TextFieldSetting
     private final ConfigProperty<String> response10 = new ConfigProperty<>("");
 

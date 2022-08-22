@@ -7,6 +7,7 @@ import net.labymod.api.client.gui.screen.widget.widgets.input.SwitchWidget.Switc
 import net.labymod.api.client.gui.screen.widget.widgets.input.TextFieldWidget.TextFieldSetting;
 import net.labymod.api.configuration.loader.Config;
 import net.labymod.api.configuration.loader.annotation.ParentSwitch;
+import net.labymod.api.configuration.loader.annotation.SpriteSlot;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
 import net.labymod.api.configuration.settings.Setting;
 import net.labymod.api.configuration.settings.annotation.SettingSection;
@@ -19,69 +20,87 @@ public class AutoBroadcastSubSettings extends Config {
     private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
     @MethodOrder(after = "enabled")
+    @SpriteSlot(y = 3)
     @ButtonSetting(translation = "streamchatplus.settings.autoBroadcastSubSettings.reloadBroadcasts.text")
     public void reloadBroadcasts(Setting setting) {
         StreamChatPlus.customCommandManager.initializeCustomCommands();
     }
 
     @SettingSection("introduction")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval1 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message1 = new ConfigProperty<>(
             "This is your first Custom Broadcast. It will be executed every 5 minutes in your twitch chat!");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval2 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message2 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval3 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message3 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval4 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message4 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval5 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message5 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval6 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message6 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval7 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message7 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval8 = new ConfigProperty<>(5);
 
+    @SpriteSlot(x = 2, y = 3)
     @TextFieldSetting
     private final ConfigProperty<String> message8 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval9 = new ConfigProperty<>(5);
 
@@ -89,6 +108,7 @@ public class AutoBroadcastSubSettings extends Config {
     private final ConfigProperty<String> message9 = new ConfigProperty<>("");
 
     @SettingSection("autoBroadcast")
+    @SpriteSlot(x = 1, y = 3)
     @SliderSetting(min = 3, max = 60, steps = 1)
     private final ConfigProperty<Integer> interval10 = new ConfigProperty<>(5);
 

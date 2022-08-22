@@ -9,6 +9,8 @@ import net.labymod.api.client.gui.screen.widget.widgets.input.ButtonWidget.Butto
 import net.labymod.api.client.gui.screen.widget.widgets.input.SwitchWidget.SwitchSetting;
 import net.labymod.api.client.gui.screen.widget.widgets.input.TextFieldWidget.TextFieldSetting;
 import net.labymod.api.configuration.loader.annotation.ConfigName;
+import net.labymod.api.configuration.loader.annotation.SpriteSlot;
+import net.labymod.api.configuration.loader.annotation.SpriteTexture;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
 import net.labymod.api.configuration.settings.Setting;
 import net.labymod.api.configuration.settings.annotation.SettingSection;
@@ -18,15 +20,19 @@ import java.io.IOException;
 
 @SuppressWarnings("FieldMayBeFinal")
 @ConfigName("settings")
+@SpriteTexture("settings.png")
 public class Configuration extends AddonConfig {
 
+    @SpriteSlot
     @SwitchSetting
     private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
 
+    @SpriteSlot(x = 1)
     @TextFieldSetting
     private final ConfigProperty<String> prefix = new ConfigProperty<>(
             "§5✪ §d%user% §8> §7%message%");
 
+    @SpriteSlot(x = 2)
     @MethodOrder(after = "prefix")
     @ButtonSetting(translation = "streamchatplus.settings.openSupportLink.text")
     public void openSupportLink(Setting setting) {
@@ -60,20 +66,25 @@ public class Configuration extends AddonConfig {
     }
 
     @SettingSection("twitch")
+    @SpriteSlot(y = 1)
     @TextFieldSetting
     private final ConfigProperty<String> botName = new ConfigProperty<>("StreamChatPlus");
 
+    @SpriteSlot(x = 1, y = 1)
     @TextFieldSetting
     private final ConfigProperty<String> twitchChannel = new ConfigProperty<>("");
 
+    @SpriteSlot(x = 2, y = 1)
     @TextFieldSetting
     private final ConfigProperty<String> twitchToken = new ConfigProperty<>("");
 
     @SettingSection("ingame")
+    @SpriteSlot(y = 2)
     @SwitchSetting
     private final ConfigProperty<Boolean> ingameChatEnabled = new ConfigProperty<>(false);
 
     @TextFieldSetting
+    @SpriteSlot(x = 1, y = 2)
     private final ConfigProperty<String> ingameChatPrefix = new ConfigProperty<>("#");
 
     @SettingSection("extras")
