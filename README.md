@@ -151,6 +151,10 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td><a href="https://laby.net/@26d45041-3742-41f5-85ca-24ec4387347c">CrazySchnetzler</a></td>
             <td>Icon-Designs</td>
         </tr>
+        <tr>
+            <td><a href="https://laby.net/@1d954089-ce5c-48ef-8ee6-a7d64742036a">DoJapHD</a></td>
+            <td>Icon-Designs</td>
+        </tr>
 </table>
 <br>
 Thanks for your super awesome great outstanding work! ✨
