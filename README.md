@@ -152,6 +152,14 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td>Translating</td>
         </tr>
         <tr>
+            <td><a href="https://laby.net/@8b42c9ef-b5ef-482e-bde7-04c7897f5e80">Itz_Hoffe</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@480bd794-0683-42dc-8dae-7d0f501168e7">Fjuro</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
             <td><a href="https://laby.net/@26d45041-3742-41f5-85ca-24ec4387347c">CrazySchnetzler</a></td>
             <td>Icon-Designs</td>
         </tr>
