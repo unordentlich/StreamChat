@@ -1,0 +1,200 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Aktiveret"
+      },
+      "prefix": {
+        "name": "Præfiks",
+        "description": "Sæt udseendet af din indkommende chat besked. Bruge %message% som placeholderen for beskeden og %user% som placeholderen for brugernavnet."
+      },
+      "openSupportLink": {
+        "name": "Har du brug for hjælp?",
+        "text": "Support"
+      },
+      "botName": {
+        "name": "Bot brugernavn"
+      },
+      "twitchChannel": {
+        "name": "Twitch Brugernavn"
+      },
+      "twitchToken": {
+        "name": "Twitch Token"
+      },
+      "ingameChatEnabled": {
+        "name": "Skriv i StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Præfiks"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Automatisk Udsendelse",
+        "interval1": {
+          "name": "Interval"
+        },
+        "message1": {
+          "name": "Besked"
+        },
+        "interval2": {
+          "name": "Interval"
+        },
+        "message2": {
+          "name": "Besked"
+        },
+        "interval3": {
+          "name": "Interval"
+        },
+        "message3": {
+          "name": "Besked"
+        },
+        "interval4": {
+          "name": "Interval"
+        },
+        "message4": {
+          "name": "Besked"
+        },
+        "interval5": {
+          "name": "Interval"
+        },
+        "message5": {
+          "name": "Besked"
+        },
+        "interval6": {
+          "name": "Interval"
+        },
+        "message6": {
+          "name": "Besked"
+        },
+        "interval7": {
+          "name": "Interval"
+        },
+        "message7": {
+          "name": "Besked"
+        },
+        "interval8": {
+          "name": "Interval"
+        },
+        "message8": {
+          "name": "Besked"
+        },
+        "interval9": {
+          "name": "Interval"
+        },
+        "message9": {
+          "name": "Besked"
+        },
+        "interval10": {
+          "name": "Interval"
+        },
+        "message10": {
+          "name": "Besked"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Genindlæs Udsendelser"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Udsendelse §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Tilgængelige placeholders:\n§eSpiller-Navn §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profile §8— §7%labynet%\n \n \n \n§8» §7Udsendelse §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Brugerdefinerede kommandoer §c§lNEW",
+        "command1": {
+          "name": "Kommando"
+        },
+        "response1": {
+          "name": "Besked"
+        },
+        "command2": {
+          "name": "Kommando"
+        },
+        "response2": {
+          "name": "Besked"
+        },
+        "command3": {
+          "name": "Kommando"
+        },
+        "response3": {
+          "name": "Besked"
+        },
+        "command4": {
+          "name": "Kommando"
+        },
+        "response4": {
+          "name": "Besked"
+        },
+        "command5": {
+          "name": "Kommando"
+        },
+        "response5": {
+          "name": "Besked"
+        },
+        "command6": {
+          "name": "Kommando"
+        },
+        "response6": {
+          "name": "Besked"
+        },
+        "command7": {
+          "name": "Kommando"
+        },
+        "response7": {
+          "name": "Besked"
+        },
+        "command8": {
+          "name": "Kommando"
+        },
+        "response8": {
+          "name": "Besked"
+        },
+        "command9": {
+          "name": "Kommando"
+        },
+        "response9": {
+          "name": "Besked"
+        },
+        "command10": {
+          "name": "Kommando"
+        },
+        "response10": {
+          "name": "Besked"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Genindlæs Kommandoer"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Kommando §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Tilgængelige placeholders:\n§eSpiller-Navn §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profile §8— §7%labynet%\n \n \n \n§8» §7Kommando §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§7§oDu kan finde din \"Twitch Token\" på\n     §7§ohttps://twitchapps.com/tmi/ \n \n §8» §d✪ §5Twitch §7Indstillinger §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aIngame §7Indstillinger §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Ekstra §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cDin tilføjelse ser ud til at være konfigureret forkert! :(",
+        "description": "§4→ §cDin fejlkode er"
+      }
+    }
+  }
+}
