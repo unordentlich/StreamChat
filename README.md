@@ -168,6 +168,10 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td>Translating</td>
         </tr>
         <tr>
+            <td><a href="https://laby.net/@1a41299d-8aee-4d18-832a-848abdd6b438">GiorgioBrux</a></td>
+            <td>Translating</td>
+        </tr>
+        <tr>
             <td><a href="https://laby.net/@26d45041-3742-41f5-85ca-24ec4387347c">CrazySchnetzler</a></td>
             <td>Icon-Designs</td>
         </tr>
