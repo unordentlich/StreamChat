@@ -182,12 +182,14 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td>Icon-Designs</td>
         </tr>
         <tr>
+            <td><a href="https://laby.net/@570808b3-35f5-4cd8-a907-f55a5a19e992">JumpingPxl</a></td>
+            <td>Troubleshooting, Bugfixing</td>
+        </tr>
+        <tr>
             <td><a href="https://laby.net/@753edb9b-2483-475e-a4f2-3fb2496b9f28">ennioderfeini</a></td>
             <td>Documentation, providing his awesome godlike computer 🔥</td>
         </tr>
 </table>
-<br>
-<br>
 <br>
 <h3>📬 Contact</h3>
 If you have any questions, requests or problems feel free to contact me on <a href="https://discord.com/users/421671659146313729"><b>Discord</b></a>!
