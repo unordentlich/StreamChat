@@ -1,8 +1,8 @@
-<h1 align="center">StreamChat+ 🌍</h1>
-<p align="center">Never tab out of your fullscreen again! 🔥</p>
+<h1 align="center">StreamChat+ <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/325/globe-showing-americas_1f30e.png" width="30"></h1>
+<p align="center">Never tab out of your fullscreen again! <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/129/fire_1f525.png" width="15"></p>
 
 <h3>🤖 How it works</h3>
-<p>StreamChat+ is a possibility to display your whole TwitchChat directly into your minecraft chat with just one simple LabyMod addon. Interact with your viewers, receive stream alerts and talk with your chat in real-time!</p>
+<p>StreamChat+ is an addon developed for <a href="https://labymod.net/">LabyMod</a> that enables you to display your whole TwitchChat directly into your minecraft chat. Interact with your viewers, receive stream alerts and talk with your chat in real-time!</p>
 
 ![image](https://user-images.githubusercontent.com/56507045/161532286-c9e9eb8e-4360-4e29-9e78-f66393b4cf96.png)
 
@@ -10,19 +10,20 @@
 <br>
 <br>
 <h3>⚙️ Configuration</h3>
-<b>Step 1</b> › Download the addon from the LabyMod addon store. If you want to use an unofficial version, there are sometimes unreleased features <a href="https://github.com/jonas-koll/StreamChat/releases">here</a>. Please note, that you won't receive any support for using or installing unofficial versions.
+<b>Step 1</b> › Download the addon from the LabyMod addon store. If you want to use an unofficial version, there are sometimes unreleased features <a href="https://github.com/unordentlich/StreamChat/releases">here</a>. Please note, that you won't receive any support for using or installing unofficial versions.
 
 ![161529754-3eb0d11b-9356-442a-a1ae-f4a2ecaa1bf6](https://user-images.githubusercontent.com/56507045/188198831-f56b5b24-20cb-47ca-8e41-17cafb1f387b.png)
 
 <br>
-<b>Step 2</b> › If you're asked to restart your game, please confirm this to activate the addon correctly. Now head over to the configuration by clicking on the small <code>⚙️</code> icon.
+<b>Step 2</b> › If you're asked to restart your game, please do so in order to activate the addon correctly. Now head over to the configuration by clicking on the small <code>⚙️</code> icon to finish the setup of your addon.
 
 ![image](https://user-images.githubusercontent.com/56507045/188198442-c794ad29-b1c0-4036-8a8c-a40695574ff0.png)
 
 <br>
 <b>Step 3</b> › Now you can set up everything you need. Make sure that you also have <b>enabled</b> the addon!
 
-![image](https://user-images.githubusercontent.com/56507045/161529883-80ba4b66-f764-4d7e-a8a0-be8220be2663.png)
+![scp-normal-black](https://user-images.githubusercontent.com/98118451/188222022-1d1354b5-a56a-4c67-ab55-d41e79279fb0.png#gh-dark-mode-only)
+![scp-normal-white](https://user-images.githubusercontent.com/98118451/188222037-f5aa8fff-db3b-42ef-b6a6-d7c3b4f89c23.png#gh-light-mode-only)
 
 <br>
 <b>Step 4</b> › To connect your LabyMod client to your Twitch account, please visit <a href="https://twitchapps.com/tmi"><b>this link</b></a>, log in to your twitch account and copy the <b>whole</b> generated token from the input field.
@@ -32,7 +33,8 @@
 <br>
 <b>Step 5</b> › Now paste the token into the right field at your addon configuration and enter the channel name above. You're not supposed to enter your own channel. This addon works like an indirect client, so you can also visit and interact with other streamers' chats.
 
-![image](https://user-images.githubusercontent.com/56507045/161530796-196fb032-2b0e-4e91-9060-95e45ac4b1d4.png)
+![scp-black-frame](https://user-images.githubusercontent.com/98118451/188222147-f1f2cdbc-dcd3-4742-a05a-dc64db9bebbd.png#gh-dark-mode-only)
+![scp-white-frame](https://user-images.githubusercontent.com/98118451/188222154-7360ffea-d285-4308-b962-fdd1a2d165b8.png#gh-light-mode-only)
 
 
 <p align="center"><b>Your addon is now ready to go! Have fun with it! 🐶</b></p>
@@ -172,10 +174,6 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td>Translating</td>
         </tr>
         <tr>
-            <td><a href="https://laby.net/@753edb9b-2483-475e-a4f2-3fb2496b9f28">ausleuchten</a></td>
-            <td>Documentation</td>
-        </tr>
-        <tr>
             <td><a href="https://laby.net/@26d45041-3742-41f5-85ca-24ec4387347c">CrazySchnetzler</a></td>
             <td>Icon-Designs</td>
         </tr>
@@ -183,10 +181,13 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
             <td><a href="https://laby.net/@1d954089-ce5c-48ef-8ee6-a7d64742036a">DoJapHD</a></td>
             <td>Icon-Designs</td>
         </tr>
+        <tr>
+            <td><a href="https://laby.net/@753edb9b-2483-475e-a4f2-3fb2496b9f28">ennioderfeini</a></td>
+            <td>Documentation, providing his awesome godlike computer 🔥</td>
+        </tr>
 </table>
 <br>
-Thanks for your super awesome great outstanding work! ✨
 <br>
 <br>
 <h3>📬 Contact</h3>
-If you have any questions, requests or problems feel free to contact me at <a href="https://discord.com/users/421671659146313729"><b>Discord</b></a>!
+If you have any questions, requests or problems feel free to contact me on <a href="https://discord.com/users/421671659146313729"><b>Discord</b></a>!
