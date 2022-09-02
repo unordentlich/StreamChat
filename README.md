@@ -12,12 +12,12 @@
 <h3>⚙️ Configuration</h3>
 <b>Step 1</b> › Download the addon from the LabyMod addon store. If you want to use an unofficial version, there are sometimes unreleased features <a href="https://github.com/jonas-koll/StreamChat/releases">here</a>. Please note, that you won't receive any support for using or installing unofficial versions.
 
-![image](https://user-images.githubusercontent.com/56507045/161529754-3eb0d11b-9356-442a-a1ae-f4a2ecaa1bf6.png)
+![161529754-3eb0d11b-9356-442a-a1ae-f4a2ecaa1bf6](https://user-images.githubusercontent.com/56507045/188198831-f56b5b24-20cb-47ca-8e41-17cafb1f387b.png)
 
 <br>
 <b>Step 2</b> › If you're asked to restart your game, please confirm this to activate the addon correctly. Now head over to the configuration by clicking on the small <code>⚙️</code> icon.
 
-![image](https://user-images.githubusercontent.com/56507045/161530076-aa8f9c4d-ba76-4bf2-8992-cb773aab4dba.png)
+![image](https://user-images.githubusercontent.com/56507045/188198442-c794ad29-b1c0-4036-8a8c-a40695574ff0.png)
 
 <br>
 <b>Step 3</b> › Now you can set up everything you need. Make sure that you also have <b>enabled</b> the addon!
@@ -170,6 +170,10 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
         <tr>
             <td><a href="https://laby.net/@1a41299d-8aee-4d18-832a-848abdd6b438">GiorgioBrux</a></td>
             <td>Translating</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@753edb9b-2483-475e-a4f2-3fb2496b9f28">ausleuchten</a></td>
+            <td>Documentation</td>
         </tr>
         <tr>
             <td><a href="https://laby.net/@26d45041-3742-41f5-85ca-24ec4387347c">CrazySchnetzler</a></td>
