@@ -1,0 +1,209 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Addun iz workin"
+      },
+      "prefix": {
+        "name": "Prefix",
+        "description": "Set the appearance of an incoming chat message. Use %message% as the placeholder for the message and %user% as the placeholder for the user name."
+      },
+      "openSupportLink": {
+        "name": "Du u nid halp?",
+        "text": "Superport"
+      },
+      "botName": {
+        "name": "Bod Usenamee"
+      },
+      "twitchChannel": {
+        "name": "Twidch Usenamee"
+      },
+      "twitchToken": {
+        "name": "Twidch Tokken"
+      },
+      "ingameChatEnabled": {
+        "name": "Wrid en StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Prefix"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Auto brodcats",
+        "interval1": {
+          "name": "interwall"
+        },
+        "message1": {
+          "name": "Mesage"
+        },
+        "interval2": {
+          "name": "interwall"
+        },
+        "message2": {
+          "name": "Mesage"
+        },
+        "interval3": {
+          "name": "interwall"
+        },
+        "message3": {
+          "name": "Mesage"
+        },
+        "interval4": {
+          "name": "interwall"
+        },
+        "message4": {
+          "name": "Mesage"
+        },
+        "interval5": {
+          "name": "interwall"
+        },
+        "message5": {
+          "name": "Mesage"
+        },
+        "interval6": {
+          "name": "interwall"
+        },
+        "message6": {
+          "name": "Mesage"
+        },
+        "interval7": {
+          "name": "interwall"
+        },
+        "message7": {
+          "name": "Mesage"
+        },
+        "interval8": {
+          "name": "interwall"
+        },
+        "message8": {
+          "name": "Mesage"
+        },
+        "interval9": {
+          "name": "interwall"
+        },
+        "message9": {
+          "name": "Mesage"
+        },
+        "interval10": {
+          "name": "interwall"
+        },
+        "message10": {
+          "name": "Mesage"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "looad Brodcats again"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Brodcats §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7pozible placeholds:\n§ePlayer-Name §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profile §8— §7%labynet%\n \n \n \n§8» §7Brodcats §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Custom Comants §c§lNEW",
+        "command1": {
+          "name": "Comant"
+        },
+        "response1": {
+          "name": "Mesage"
+        },
+
+        "command2": {
+          "name": "Comant"
+        },
+        "response2": {
+          "name": "Mesage"
+        },
+
+        "command3": {
+          "name": "Comant"
+        },
+        "response3": {
+          "name": "Mesage"
+        },
+
+        "command4": {
+          "name": "Comant"
+        },
+        "response4": {
+          "name": "Mesage"
+        },
+
+        "command5": {
+          "name": "Comant"
+        },
+        "response5": {
+          "name": "Mesage"
+        },
+
+        "command6": {
+          "name": "Comant"
+        },
+        "response6": {
+          "name": "Mesage"
+        },
+
+        "command7": {
+          "name": "Comant"
+        },
+        "response7": {
+          "name": "Mesage"
+        },
+
+        "command8": {
+          "name": "Comant"
+        },
+        "response8": {
+          "name": "Mesage"
+        },
+
+        "command9": {
+          "name": "Comant"
+        },
+        "response9": {
+          "name": "Mesage"
+        },
+
+        "command10": {
+          "name": "Comant"
+        },
+        "response10": {
+          "name": "Mesage"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "looad comants again"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Comant §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7pozible placeholds:\n§ePlayer-Name §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profile §8— §7%labynet%\n \n \n \n§8» §7Comants §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n §7§oYou can find your \"Twitch Token\" at \n     §7§ohttps://twitchapps.com/tmi/ \n \n §8» §d✪ §5Twitch §7sehtingz §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aInminecraft §7sehtingz §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e super-special-secret-area!!! §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cooh, ur addun luuks brokn! :(",
+        "description": "§4→ §cYour error code is"
+      }
+    }
+  }
+}

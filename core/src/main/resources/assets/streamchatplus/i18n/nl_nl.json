@@ -1,0 +1,200 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Ingeschakeld"
+      },
+      "prefix": {
+        "name": "Prefix",
+        "description": "Stel het uiterlijk van een inkomend chatbericht in. Gebruik %message% als aanduiding voor het bericht en %user% als tijdelijke aanduiding voor de gebruikersnaam."
+      },
+      "openSupportLink": {
+        "name": "Heb je hulp nodig?",
+        "text": "Support"
+      },
+      "botName": {
+        "name": "Bot Gebruikersnaam"
+      },
+      "twitchChannel": {
+        "name": "Twitch Gebruikersnaam"
+      },
+      "twitchToken": {
+        "name": "Twitch Token"
+      },
+      "ingameChatEnabled": {
+        "name": "Schrijf in StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Prefix"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Automatische Broadcasts",
+        "interval1": {
+          "name": "Interval"
+        },
+        "message1": {
+          "name": "Bericht"
+        },
+        "interval2": {
+          "name": "Interval"
+        },
+        "message2": {
+          "name": "Bericht"
+        },
+        "interval3": {
+          "name": "Interval"
+        },
+        "message3": {
+          "name": "Bericht"
+        },
+        "interval4": {
+          "name": "Interval"
+        },
+        "message4": {
+          "name": "Bericht"
+        },
+        "interval5": {
+          "name": "Interval"
+        },
+        "message5": {
+          "name": "Bericht"
+        },
+        "interval6": {
+          "name": "Interval"
+        },
+        "message6": {
+          "name": "Bericht"
+        },
+        "interval7": {
+          "name": "Interval"
+        },
+        "message7": {
+          "name": "Bericht"
+        },
+        "interval8": {
+          "name": "Interval"
+        },
+        "message8": {
+          "name": "Bericht"
+        },
+        "interval9": {
+          "name": "Interval"
+        },
+        "message9": {
+          "name": "Bericht"
+        },
+        "interval10": {
+          "name": "Interval"
+        },
+        "message10": {
+          "name": "Bericht"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Herlaad Broadcasts"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Broadcast §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Beschikbare aanduidingen:\n§eSpeler-naam §8— §7%name%\n§eMinecraft-Versie §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profiel §8— §7%labynet%\n \n \n \n§8» §7Broadcast §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Aangepaste Commands §c§lNEW",
+        "command1": {
+          "name": "Command"
+        },
+        "response1": {
+          "name": "Bericht"
+        },
+        "command2": {
+          "name": "Command"
+        },
+        "response2": {
+          "name": "Bericht"
+        },
+        "command3": {
+          "name": "Command"
+        },
+        "response3": {
+          "name": "Bericht"
+        },
+        "command4": {
+          "name": "Command"
+        },
+        "response4": {
+          "name": "Bericht"
+        },
+        "command5": {
+          "name": "Command"
+        },
+        "response5": {
+          "name": "Bericht"
+        },
+        "command6": {
+          "name": "Command"
+        },
+        "response6": {
+          "name": "Bericht"
+        },
+        "command7": {
+          "name": "Command"
+        },
+        "response7": {
+          "name": "Bericht"
+        },
+        "command8": {
+          "name": "Command"
+        },
+        "response8": {
+          "name": "Bericht"
+        },
+        "command9": {
+          "name": "Command"
+        },
+        "response9": {
+          "name": "Bericht"
+        },
+        "command10": {
+          "name": "Command"
+        },
+        "response10": {
+          "name": "Bericht"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Herlaad Commands"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Command §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Beschikbare aanduidingen:\n§eSpeler-Naam §8— §7%name%\n§eMinecraft-Versie §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profiel §8— §7%labynet%\n \n \n \n§8» §7Command §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§8» §d✪ §5Twitch §7Instellingen §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aIngame §7Instellingen §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Extras §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cJouw add-on lijkt verkeerd te zijn geconfigureerd! :(",
+        "description": "§4→ §cJouw foutcode is"
+      }
+    }
+  }
+}

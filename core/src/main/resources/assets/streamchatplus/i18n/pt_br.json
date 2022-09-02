@@ -1,0 +1,200 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Ativado"
+      },
+      "prefix": {
+        "name": "Prefixo",
+        "description": "Define a aparência de uma mensagem de chat recebida. Use %message% como espaço reservado para a mensagem e %user% como espaço reservado para o nome de usuário."
+      },
+      "openSupportLink": {
+        "name": "Você precisa de ajuda?",
+        "text": "Suporte"
+      },
+      "botName": {
+        "name": "Nome de usuário do bot"
+      },
+      "twitchChannel": {
+        "name": "Nome de usuário da Twitch"
+      },
+      "twitchToken": {
+        "name": "Token da Twitch"
+      },
+      "ingameChatEnabled": {
+        "name": "Escreva no StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Prefixo"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Transmissões automáticas",
+        "interval1": {
+          "name": "Intervalo"
+        },
+        "message1": {
+          "name": "Mensagem"
+        },
+        "interval2": {
+          "name": "Intervalo"
+        },
+        "message2": {
+          "name": "Mensagem"
+        },
+        "interval3": {
+          "name": "Intervalo"
+        },
+        "message3": {
+          "name": "Mensagem"
+        },
+        "interval4": {
+          "name": "Intervalo"
+        },
+        "message4": {
+          "name": "Mensagem"
+        },
+        "interval5": {
+          "name": "Intervalo"
+        },
+        "message5": {
+          "name": "Mensagem"
+        },
+        "interval6": {
+          "name": "Intervalo"
+        },
+        "message6": {
+          "name": "Mensagem"
+        },
+        "interval7": {
+          "name": "Intervalo"
+        },
+        "message7": {
+          "name": "Mensagem"
+        },
+        "interval8": {
+          "name": "Intervalo"
+        },
+        "message8": {
+          "name": "Mensagem"
+        },
+        "interval9": {
+          "name": "Intervalo"
+        },
+        "message9": {
+          "name": "Mensagem"
+        },
+        "interval10": {
+          "name": "Intervalo"
+        },
+        "message10": {
+          "name": "Mensagem"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Recarregar transmissões"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §Transmissão §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Placeholders disponíveis:\n§eNome do jogador §8— §7%name%\n§eVersão do Minecraft §8— §7%version%\n§eServidor §8— §7%server%\n§ePerfil do LabyNET §8— §7%labynet%\n \n \n \n§8» §7Transmissão §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Comandos customizados §c§lNOVO",
+        "command1": {
+          "name": "Comando"
+        },
+        "response1": {
+          "name": "Mensagem"
+        },
+        "command2": {
+          "name": "Comando"
+        },
+        "response2": {
+          "name": "Mensagem"
+        },
+        "command3": {
+          "name": "Comando"
+        },
+        "response3": {
+          "name": "Mensagem"
+        },
+        "command4": {
+          "name": "Comando"
+        },
+        "response4": {
+          "name": "Mensagem"
+        },
+        "command5": {
+          "name": "Comando"
+        },
+        "response5": {
+          "name": "Mensagem"
+        },
+        "command6": {
+          "name": "Comando"
+        },
+        "response6": {
+          "name": "Mensagem"
+        },
+        "command7": {
+          "name": "Comando"
+        },
+        "response7": {
+          "name": "Mensagem"
+        },
+        "command8": {
+          "name": "Comando"
+        },
+        "response8": {
+          "name": "Mensagem"
+        },
+        "command9": {
+          "name": "Comando"
+        },
+        "response9": {
+          "name": "Mensagem"
+        },
+        "command10": {
+          "name": "Comando"
+        },
+        "response10": {
+          "name": "Mensagem"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Recarregar comandos"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Comando §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Placeholders disponíveis:\n§eNome do jogador §8— §7%name%\n§eVersão do Minecraft §8— §7%version%\n§eServidor §8— §7%server%\n§ePerfil do LabyNET §8— §7%labynet%\n \n \n \n§8» §7Comando §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n §7§oVocê pode encontrar o seu \"Token da Twitch\" em \n     §7§ohttps://twitchapps.com/tmi/ \n \n §8» §d✪ §7Configurações da §5Twitch §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §7Configurações §aem jogo §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Extras §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cSeu complemento parece estar configurado incorretamente! :(",
+        "description": "§4→ §cSeu código de erro é"
+      }
+    }
+  }
+}

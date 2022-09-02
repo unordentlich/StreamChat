@@ -1,0 +1,200 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "有効"
+      },
+      "prefix": {
+        "name": "プレフィックス",
+        "description": "受信チャット メッセージの外観を設定することができます。%message% をメッセージのプレースホルダと %user% をユーザー名のプレースホルダとして使ってください。"
+      },
+      "openSupportLink": {
+        "name": "助けが必要ですか？",
+        "text": "サポート"
+      },
+      "botName": {
+        "name": "ボットユーザー名"
+      },
+      "twitchChannel": {
+        "name": "Twitchユーザー名"
+      },
+      "twitchToken": {
+        "name": "Twitchトークン"
+      },
+      "ingameChatEnabled": {
+        "name": "ストリームチャットに書く"
+      },
+      "ingameChatPrefix": {
+        "name": "プレフィックス"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "自動ブロードキャスト",
+        "interval1": {
+          "name": "インターバル"
+        },
+        "message1": {
+          "name": "メッセージ"
+        },
+        "interval2": {
+          "name": "インターバル"
+        },
+        "message2": {
+          "name": "メッセージ"
+        },
+        "interval3": {
+          "name": "インターバル"
+        },
+        "message3": {
+          "name": "メッセージ"
+        },
+        "interval4": {
+          "name": "インターバル"
+        },
+        "message4": {
+          "name": "メッセージ"
+        },
+        "interval5": {
+          "name": "インターバル"
+        },
+        "message5": {
+          "name": "メッセージ"
+        },
+        "interval6": {
+          "name": "インターバル"
+        },
+        "message6": {
+          "name": "メッセージ"
+        },
+        "interval7": {
+          "name": "インターバル"
+        },
+        "message7": {
+          "name": "メッセージ"
+        },
+        "interval8": {
+          "name": "インターバル"
+        },
+        "message8": {
+          "name": "メッセージ"
+        },
+        "interval9": {
+          "name": "インターバル"
+        },
+        "message9": {
+          "name": "メッセージ"
+        },
+        "interval10": {
+          "name": "インターバル"
+        },
+        "message10": {
+          "name": "メッセージ"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "ブロードキャストをリロードする"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7ブロードキャスト §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7使用できるプレースホルダ:\n§eプレーヤー名 §8— §7%name%\n§eMinecraftバージョン §8— §7%version%\n§eサーバ §8— §7%server%\n§eLabyNETプロフィール §8— §7%labynet%\n \n \n \n§8» §7ブロードキャスト §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "カスタムコマンド §c§lNEW",
+        "command1": {
+          "name": "コマンド"
+        },
+        "response1": {
+          "name": "メッセージ"
+        },
+        "command2": {
+          "name": "コマンド"
+        },
+        "response2": {
+          "name": "メッセージ"
+        },
+        "command3": {
+          "name": "コマンド"
+        },
+        "response3": {
+          "name": "メッセージ"
+        },
+        "command4": {
+          "name": "コマンド"
+        },
+        "response4": {
+          "name": "メッセージ"
+        },
+        "command5": {
+          "name": "コマンド"
+        },
+        "response5": {
+          "name": "メッセージ"
+        },
+        "command6": {
+          "name": "コマンド"
+        },
+        "response6": {
+          "name": "メッセージ"
+        },
+        "command7": {
+          "name": "コマンド"
+        },
+        "response7": {
+          "name": "メッセージ"
+        },
+        "command8": {
+          "name": "コマンド"
+        },
+        "response8": {
+          "name": "メッセージ"
+        },
+        "command9": {
+          "name": "コマンド"
+        },
+        "response9": {
+          "name": "メッセージ"
+        },
+        "command10": {
+          "name": "コマンド"
+        },
+        "response10": {
+          "name": "メッセージ"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "コマンドをリロードする"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7コマンド §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7使用できるプレースホルダ:\n§eプレーヤー名 §8— §7%name%\n§eMinecraftバージョン §8— §7%version%\n§eサーバ §8— §7%server%\n§eLabyNETプロフィール §8— §7%labynet%\n \n \n \n§8» §7ブロードキャスト §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§7§oTwitchトークンは\n§7§ohttps://twitchapps.com/tmi/\n§7§oで見つけることができます。\n\n§8» §d✪ §5Twitch §7設定 §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ ゲーム内の設定 §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e 特別設定 §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cアドオンの設定が間違っているようです！ :(",
+        "description": "§4→ §c エラーコードは"
+      }
+    }
+  }
+}

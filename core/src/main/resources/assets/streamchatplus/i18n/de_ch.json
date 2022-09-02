@@ -1,0 +1,209 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Aktiviert"
+      },
+      "prefix": {
+        "name": "Prefix",
+        "description": "Konfiguriere s'Ussehe vo de igehende Chat-Nochricht. Nutz %message% als Platzhalter fürd Nochricht vom Benutzer sowie %user% als Platzhalter für de Name vom Chatter."
+      },
+      "openSupportLink": {
+        "name": "Benötigsch du Hilf?",
+        "text": "Support"
+      },
+      "botName": {
+        "name": "Bot Benutzername"
+      },
+      "twitchChannel": {
+        "name": "Twitch Kanalname"
+      },
+      "twitchToken": {
+        "name": "Twitch Token"
+      },
+      "ingameChatEnabled": {
+        "name": "Schrib im StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Prefix"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Auto Broadcasts",
+        "interval1": {
+          "name": "Intervall"
+        },
+        "message1": {
+          "name": "Nochricht"
+        },
+        "interval2": {
+          "name": "Nochricht"
+        },
+        "message2": {
+          "name": "Nochricht"
+        },
+        "interval3": {
+          "name": "Intervall"
+        },
+        "message3": {
+          "name": "Nochricht"
+        },
+        "interval4": {
+          "name": "Intervall"
+        },
+        "message4": {
+          "name": "Nochricht"
+        },
+        "interval5": {
+          "name": "Intervall"
+        },
+        "message5": {
+          "name": "Nochricht"
+        },
+        "interval6": {
+          "name": "Intervall"
+        },
+        "message6": {
+          "name": "Nochricht"
+        },
+        "interval7": {
+          "name": "Intervall"
+        },
+        "message7": {
+          "name": "Nochricht"
+        },
+        "interval8": {
+          "name": "Intervall"
+        },
+        "message8": {
+          "name": "Nochricht"
+        },
+        "interval9": {
+          "name": "Intervall"
+        },
+        "message9": {
+          "name": "Nochricht"
+        },
+        "interval10": {
+          "name": "Intervall"
+        },
+        "message10": {
+          "name": "Nachricht"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Broadcasts neu lade"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Broadcast §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Verfüegbari Platzhalter:\n§eBenutzername §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profil §8— §7%labynet%\n \n \n \n§8» §7Broadcast §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Benutzerdefinierti Befehl §c§lNEU",
+        "command1": {
+          "name": "Befehl"
+        },
+        "response1": {
+          "name": "Nochricht"
+        },
+
+        "command2": {
+          "name": "Befehl"
+        },
+        "response2": {
+          "name": "Nochricht"
+        },
+
+        "command3": {
+          "name": "Befehl"
+        },
+        "response3": {
+          "name": "Nochricht"
+        },
+
+        "command4": {
+          "name": "Befehl"
+        },
+        "response4": {
+          "name": "Nochricht"
+        },
+
+        "command5": {
+          "name": "Befehl"
+        },
+        "response5": {
+          "name": "Nochricht"
+        },
+
+        "command6": {
+          "name": "Befehl"
+        },
+        "response6": {
+          "name": "Nochricht"
+        },
+
+        "command7": {
+          "name": "Befehl"
+        },
+        "response7": {
+          "name": "Nochricht"
+        },
+
+        "command8": {
+          "name": "Befehl"
+        },
+        "response8": {
+          "name": "Nochricht"
+        },
+
+        "command9": {
+          "name": "Befehl"
+        },
+        "response9": {
+          "name": "Nochricht"
+        },
+
+        "command10": {
+          "name": "Befehl"
+        },
+        "response10": {
+          "name": "Nochricht"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Befehl neu lade"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Befehl §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Verfüegbari Platzhalter:\n§eBenutzername §8— §7%name%\n§eMinecraft-Version §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET Profil §8— §7%labynet%\n \n \n \n§8» §7Befehl §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n §7§oDu findsch din \"Twitch Token\" under \n     §7§ohttps://twitchapps.com/tmi/ \n \n §8» §d✪ §5Twitch §7Istellige §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aIngame §7Istellige §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Extras §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §cDis Addon isch nöd richtig konfiguriert! :(",
+        "description": "§4→ §cDin Fehlercode lutet"
+      }
+    }
+  }
+}
