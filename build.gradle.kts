@@ -47,10 +47,6 @@ subprojects {
     plugins.apply("java-library")
     plugins.apply("net.labymod.gradle.addon")
 
-    val shade = configurations.create("shade")
-    val api by configurations
-    api.extendsFrom(shade)
-
     repositories {
         maven("https://libraries.minecraft.net/")
         maven("https://repo.spongepowered.org/repository/maven-public/")
