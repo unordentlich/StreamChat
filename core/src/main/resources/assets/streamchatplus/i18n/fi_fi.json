@@ -1,0 +1,200 @@
+{
+  "streamchatplus": {
+    "settings": {
+      "name": "StreamChat+",
+      "enabled": {
+        "name": "Käytössä"
+      },
+      "prefix": {
+        "name": "Prefix",
+        "description": "Määritä saapuvan chat viestin ulkoasu. Käytä %message% a viestin ja %user% a käyttäjänimen sijoittimena."
+      },
+      "openSupportLink": {
+        "name": "Tarvitsetko apua?",
+        "text": "Support"
+      },
+      "botName": {
+        "name": "Bot Username"
+      },
+      "twitchChannel": {
+        "name": "Twitch Username"
+      },
+      "twitchToken": {
+        "name": "Twitch Token"
+      },
+      "ingameChatEnabled": {
+        "name": "Kirjoita StreamChat"
+      },
+      "ingameChatPrefix": {
+        "name": "Prefix"
+      },
+      "autoBroadcastSubSettings": {
+        "name": "Automaattiset lähetykset",
+        "interval1": {
+          "name": "Intervalli"
+        },
+        "message1": {
+          "name": "Viesti"
+        },
+        "interval2": {
+          "name": "Intervalli"
+        },
+        "message2": {
+          "name": "Viesti"
+        },
+        "interval3": {
+          "name": "Intervalli"
+        },
+        "message3": {
+          "name": "Viesti"
+        },
+        "interval4": {
+          "name": "Intervalli"
+        },
+        "message4": {
+          "name": "Viesti"
+        },
+        "interval5": {
+          "name": "Intervalli"
+        },
+        "message5": {
+          "name": "Viesti"
+        },
+        "interval6": {
+          "name": "Intervalli"
+        },
+        "message6": {
+          "name": "Viesti"
+        },
+        "interval7": {
+          "name": "Intervalli"
+        },
+        "message7": {
+          "name": "Viesti"
+        },
+        "interval8": {
+          "name": "Intervalli"
+        },
+        "message8": {
+          "name": "Viesti"
+        },
+        "interval9": {
+          "name": "Intervalli"
+        },
+        "message9": {
+          "name": "Viesti"
+        },
+        "interval10": {
+          "name": "Intervalli"
+        },
+        "message10": {
+          "name": "Viesti"
+        },
+        "reloadBroadcasts": {
+          "name": "",
+          "text": "Lähetysten uudelleenlataus"
+        },
+        "header": {
+          "autoBroadcast": {
+            "name": "\n§8» §7Lähetys §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Käytettävissä olevat paikannimet:\n§ePelaajan nimi §8— §7%name%\n§eMinecraft versio §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET profiili §8— §7%labynet%\n \n \n \n§8» §7Lähetys §8«"
+          }
+        }
+      },
+      "customCommandSubSettings": {
+        "name": "Mukautetut Komennot §c§lNEW",
+        "command1": {
+          "name": "Komento"
+        },
+        "response1": {
+          "name": "Viesti"
+        },
+        "command2": {
+          "name": "Komento"
+        },
+        "response2": {
+          "name": "Viesti"
+        },
+        "command3": {
+          "name": "Komento"
+        },
+        "response3": {
+          "name": "Viesti"
+        },
+        "command4": {
+          "name": "Komento"
+        },
+        "response4": {
+          "name": "Viesti"
+        },
+        "command5": {
+          "name": "Komento"
+        },
+        "response5": {
+          "name": "Viesti"
+        },
+        "command6": {
+          "name": "Komento"
+        },
+        "response6": {
+          "name": "Viesti"
+        },
+        "command7": {
+          "name": "Komento"
+        },
+        "response7": {
+          "name": "Viesti"
+        },
+        "command8": {
+          "name": "Komento"
+        },
+        "response8": {
+          "name": "Viesti"
+        },
+        "command9": {
+          "name": "Komento"
+        },
+        "response9": {
+          "name": "Viesti"
+        },
+        "command10": {
+          "name": "Komento"
+        },
+        "response10": {
+          "name": "Viesti"
+        },
+        "reloadCommands": {
+          "name": "",
+          "text": "Uudelleenlatauskomennot"
+        },
+        "header": {
+          "customCommand": {
+            "name": "\n§8» §7Komento §8«"
+          },
+          "introduction": {
+            "name": " \n \n§7Käytettävissä olevat paikannimet:\n§ePelaajan nimi §8— §7%name%\n§eMinecraft versio §8— §7%version%\n§eServer §8— §7%server%\n§eLabyNET profiili §8— §7%labynet%\n \n \n \n§8» §7Komento §8«"
+          }
+        }
+      },
+      "header": {
+        "twitch": {
+          "name": "\n§7§oLöydät \"Twitch Token\" osoitteesta \n     §7§ohttps://twitchapps.com/tmi/. \n \n §8» §d✪ §5Twitch §Asetukset §8«"
+        },
+        "ingame": {
+          "name": "\n§8» §2✪ §aIngame §7Asetukset §8«"
+        },
+        "extras": {
+          "name": "\n§8» §6§k✪§e Extras §8«"
+        }
+      }
+    },
+    "messages": {
+      "error": {
+        "message": "§eStream§7Chat§6+ §8» §c Lisäosasi näyttää olevan konfiguroitu väärin! :(",
+        "description": "§4→ §cVirhekoodi on"
+      }
+    }
+  }
+}
