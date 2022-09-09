@@ -2,11 +2,11 @@
 <p align="center">Never tab out of your fullscreen again! <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/129/fire_1f525.png" width="15"></p>
 
 <h3>🤖 How it works</h3>
-<p>StreamChat+ is an addon developed for <a href="https://labymod.net/">LabyMod</a> that enables you to display your whole TwitchChat directly into your minecraft chat. Interact with your viewers, receive stream alerts and talk with your chat in real-time!</p>
+<p>StreamChat+ is an addon developed for <a href="https://labymod.net/">LabyMod</a> that enables you to display your whole TwitchChat directly into your Minecraft chat. Interact with your viewers, receive stream alerts and talk with your chat in real-time!</p>
 
 ![image](https://user-images.githubusercontent.com/56507045/161532286-c9e9eb8e-4360-4e29-9e78-f66393b4cf96.png)
 
-<p>All you need to do to start interacting with your StreamChat is to claim your Twitch channel's oauth-Token from <code>https://twitchapps.com/</code>, paste it into the addon configuraton and enter, which channel's chat you want to display into your chat.</p>
+<p>All you need to do to start interacting with your StreamChat is to claim your Twitch channel's oauth-Token from <code>https://twitchapps.com/</code>, paste it into the addon configuraton and enter which channel's chat you want to display in your Minecraft chat.</p>
 <br>
 <br>
 <h3>⚙️ Configuration</h3>
@@ -15,7 +15,7 @@
 ![161529754-3eb0d11b-9356-442a-a1ae-f4a2ecaa1bf6](https://user-images.githubusercontent.com/56507045/188198831-f56b5b24-20cb-47ca-8e41-17cafb1f387b.png)
 
 <br>
-<b>Step 2</b> › If you're asked to restart your game, please do so in order to activate the addon correctly. Now head over to the configuration by clicking on the small <code>⚙️</code> icon to finish the setup of your addon.
+<b>Step 2</b> › Head over to the configuration by clicking on the small <code>⚙️</code> icon to finish the setup of your addon.
 
 ![image](https://user-images.githubusercontent.com/56507045/188198442-c794ad29-b1c0-4036-8a8c-a40695574ff0.png)
 
@@ -66,21 +66,6 @@
             <td align="center"><b>v2.0 (LM3)</b></td>
         </tr>
         <tr>
-            <td>Receive alerts at new followers, subs, donations, etc.</td>
-            <td>💡 Planned</td>
-            <td align="center"><b>—</b></td>
-        </tr>
-        <tr>
-            <td>Challenges: Let your StreamChat control your game</td>
-            <td>🕑 Pending</td>
-            <td align="center"><b>—</b></td>
-        </tr>
-        <tr>
-            <td>Add GUI modules for viewer amount, chat and last follower</td>
-            <td>💡 Planned</td>
-            <td align="center"><b>—</b></td>
-        </tr>
-        <tr>
             <td>Way more commands (Block-info, Biome-Info, Version-Info)</td>
             <td>🎉 Ready for Release</td>
             <td align="center"><b>v1.0</b></td>
@@ -94,6 +79,21 @@
             <td>Create own StreamChat commands with variables</td>
             <td>🎉 Ready for Release</td>
             <td align="center"><b>v1.0</b></td>
+        </tr>
+        <tr>
+            <td>Challenges: Let your StreamChat control your game</td>
+            <td>🕑 Pending</td>
+            <td align="center"><b>—</b></td>
+        </tr>
+        <tr>
+            <td>Receive alerts at new followers, subs, donations, etc.</td>
+            <td>💡 Planned</td>
+            <td align="center"><b>—</b></td>
+        </tr>
+        <tr>
+            <td>Add GUI modules for viewer amount, chat and last follower</td>
+            <td>💡 Planned</td>
+            <td align="center"><b>—</b></td>
         </tr>
         <tr>
             <td>📺 Support for YouTube, Mixer and Caffeine</td>
@@ -192,6 +192,10 @@ Anything you want to improve or add? I always appreciate help, bug reports and c
         <tr>
             <td><a href="https://laby.net/@753edb9b-2483-475e-a4f2-3fb2496b9f28">ennioderfeini</a></td>
             <td>Documentation, providing his awesome godlike computer 🔥</td>
+        </tr>
+        <tr>
+            <td><a href="https://laby.net/@1d954089-ce5c-48ef-8ee6-a7d64742036a">DoJapHD</a></td>
+            <td>Documentation</td>
         </tr>
 </table>
 <br>
